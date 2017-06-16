@@ -1,0 +1,13 @@
+.container {
+    padding-top: 200px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+button {
+    width: 150px;
+}
