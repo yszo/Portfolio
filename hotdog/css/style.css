@@ -1,0 +1,261 @@
+body {
+    -webkit-box-sizing: content-box!important;
+    box-sizing: content-box!important;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #2e2e2e;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.istagram-feed {
+    position: relative;
+    z-index: 1;
+}
+
+.instagram-link {
+    position: absolute;
+    z-index: 10;
+    top: 13px;
+    right: 22px;
+    color: #fff;
+}
+
+.instagram-link img {
+    margin-right: 5px;
+}
+
+.instagram-link a {
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.main-navigation {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    float: none;
+    text-align: center;
+}
+
+.navbar-default {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    float: none;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 170px;
+}
+
+article img {
+    margin-bottom: 30px;
+}
+
+.intro {
+    display: block;
+    width: 59%;
+    margin-bottom: 90px;
+    color: #555559;
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.order-btn {
+    display: block;
+    width: 310px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: transparent;
+    border-radius: 6px;
+    color: #fff!important;
+    background-color: #286782;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none!important;
+}
+
+.item {
+    width: 66%;
+    margin: 0 auto;
+    padding-top: 30%;
+}
+
+.item-heading {
+    position: relative;
+    margin-bottom: 35px;
+    color: #555559;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.item-heading::before {
+    position: absolute;
+    top: 15px;
+    left: -55px;
+    width: 32px;
+    height: 3px;
+    background-color: #286782;
+    content: '';
+}
+
+.item-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+footer {
+    padding: 30px;
+    color: #555559;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer a {
+    color: #555559;
+}
+
+
+/*sm*/
+
+@media (min-width:768px) {
+    .main-navigation {
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+    .navbar-nav li {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .navbar-default {
+        border: none;
+    }
+    .intro {
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    .item {
+        padding-top: 20px;
+    }
+    article {
+        margin-bottom: 40px;
+    }
+}
+
+
+/*md */
+
+@media (min-width:992px) {
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+
+
+    .navbar-nav li {
+        display: inline-block;
+        float: none;
+        padding: 20px;
+    }
+}
+
+@media (min-width:766px) and (max-width: 991px) {
+        .navbar-nav li {
+        display: block;
+        text-align: right;
+        float: none;
+        padding: 5px;
+        font-size: 16px;
+        border: none;
+    }
+    .navbar-default {
+        border: none;
+    }
+}
+
+/*xs*/
+
+@media (max-width:767px) {
+
+    .navbar-brand>img{
+        width: 158px;
+    }
+    .main-navigation {
+        margin-bottom: 50px;
+        font-size: 16px;
+        
+    }
+
+    .navbar-collapse {
+    border-top: none;
+    }
+
+        .navbar-default {
+        border: none;
+    }
+
+    .navbar-nav li {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .intro {
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    .item {
+        padding-top: 20px;
+    }
+    article {
+        margin-bottom: 40px;
+    }
+    .order-btn {
+        width: 280px;
+    }
+}
+
+@media (min-width:1200px) {
+    article {
+        margin-bottom: 170px;
+    }
+    .main-navigation {
+        font-size: 20px;
+    }
+    .navbar-nav li {
+        display: inline-block;
+        padding: 20px;
+        border-bottom: none;
+    }
+    .intro {
+        margin-bottom: 90px;
+        font-size: 56px;
+    }
+    .item {
+        padding-top: 30%;
+    }
+    .navbar-default {
+         border-bottom: 1px solid #e7e7e7;
+    }
+}
