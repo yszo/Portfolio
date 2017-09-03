@@ -1,10 +1,6 @@
 body {
-    font-family: "Open Sans", Tahoma, sans-serif; 
+    font-family: 'Open Sans', Tahoma, sans-serif;
 }
-
-/*header {
-    margin-bottom: 10px;
-}*/
 
 .tabs {
     position: relative;
@@ -13,46 +9,43 @@ body {
 .tab-item {
     position: absolute;
     z-index: 10000;
-    background-color: #fff
+    background-color: #fff;
 }
 
-ul.tabs-menu  {
-    list-style: none;
+ul.tabs-menu {
     margin: 0;
     padding: 0;
-    font-size: 0;
     border-bottom: 1px solid rgba(0, 0, 0, .15);
-
-    
+    list-style: none;
+    font-size: 0;
 }
 
 .tabs-menu li {
     display: inline-block;
-    vertical-align: middle;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-bottom: none;
+    border-radius: 4px;
     font-size: 16px;
     line-height: 20px;
-    border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: 4px;
-    border-bottom: none;
-
+    vertical-align: middle;
 }
 
- .main-tabs {
+.main-tabs {
     margin-bottom: -32px;
- }
+}
 
-.green a{
+.green a {
     color: rgb(204, 230, 204);
 }
 
-.red a{
+.red a {
     color: rgb(239, 105, 114);
 }
 
 .tabs-menu a {
     display: block;
-    text-decoration: none;
     padding: 15px 20px;
+    text-decoration: none;
 }
 
 .tabs-menu a:hover,
@@ -67,17 +60,17 @@ ul.tabs-menu  {
 }
 
 div.tab-item {
-    width: 100%;
     display: none;
+    width: 100%;
     padding: 10px 15px;
     border: 1px solid rgba(0, 0, 0, .15);
-    border-top:none;
+    border-top: none;
     box-shadow: 3px solid rgba(0, 0, 0, .15);
 }
 
 .tab-item ul {
+    margin: 0;
     list-style: none;
-     margin: 0;
 }
 
 .tab-link {
@@ -88,24 +81,22 @@ div.tab-item {
     padding: 5px;
 }
 
-
 .sublink-header {
     padding: 5px;
     font-weight: bold;
-
 }
 
 main {
     height: 800px;
-    background-color: green;
-    opacity: 0.2;
+    opacity: .2;
     color: white;
+    background-color: green;
 }
 
 footer {
-    margin-top: 10px;
     height: 100px;
-    background-color: blue;
-    opacity: 0.2;
+    margin-top: 10px;
+    opacity: .2;
     color: white;
+    background-color: blue;
 }
