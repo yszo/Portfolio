@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <nav class="row">
+       <!--  <div class="col-md-2 main-logo dropdown">
+     <a class="dropdown-toggle main-logo" data-toggle="dropdown" href="#"><img src="img/logo.jpg" width="167" height="50" alt=""><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">My Dashboard</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+                </div> -->
+        <div class="tabs col-md-12">
+        <ul class="tabs-menu">
+            <li><a href="#logoMenu"><img src="img/logo.jpg" width="167" height="50" alt=""><span class="caret"></span></a></li>
+            <li class="main-tabs green"><a href="#Impatient">Impatient</a></li>
+            <li class="main-tabs"><a href="#Surgery">Surgery</a></li>
+            <li class="main-tabs red"><a href="#Emergency">Emergency</a></li>
+        </ul>
+            <div>
+              <div class="tab-item row" id="logoMenu">
+            <div class="col-md-3 col-xs-3">
+            <ul>
+                    <li><a href="#">My Dashboard</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="tab-item row" id="Impatient">
+            <div class="col-md-3 col-xs-3 col-md-offset-2">
+            <div class="sublink-header">Reporting</div>
+                <ul class="tab-link green">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                </div>
+                <div class="col-md-3 col-xs-3 sublink-header">Some Impatient links</div>
+                <div class="col-md-3 col-xs-3 sublink-header">More Impatient links</div>
+            </div>
+            <div class="tab-item row" id="Surgery">
+             <div class="col-md-3 col-xs-3 col-md-offset-2">
+             <div class="sublink-header">Reporting</div>
+                <ul class="tab-link">
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Link 6</a></li>
+                </ul>
+                </div>
+                <div class="col-md-3 col-xs-3 sublink-header">Some Surgery links</div>
+                <div class="col-md-3 col-xs-3 sublink-header">More Surgery links</div>
+            </div>
+              <div class="tab-item row" id="Emergency">
+              <div class="col-md-3 col-xs-3 col-md-offset-2">
+              <div class="sublink-header">Reporting</div>
+                <ul class="tab-link red">
+                    <li><a href="#">Link 7</a></li>
+                    <li><a href="#">Link 8</a></li>
+                    <li><a href="#">Link 9</a></li>
+                </ul>
+                </div>
+                <div class="col-md-3 col-xs-3 sublink-header">Some Emergency links</div>
+                <div class="col-md-3 col-xs-3 sublink-header">More Emergency links</div>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    </header>
+    <main>
+    <div class="container">
+        Some content
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+        Some footer
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
