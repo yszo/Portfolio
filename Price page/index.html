@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Company</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/selectric.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header>
+            <div class="contact-bar">
+                <div class="container">
+                    <ul>
+                        <li><a href="mailto:support@somecompany.com"><img src="img/mail_icon.svg" alt="Mail icon">Contact Us</a></li>
+                        <li><a href="tel:+15553332222"><img src="img/phone_icon.svg" alt="Phone icon">1-555-333-2222</a></li>
+                        <li><a href="#"><img src="img/user_icon.svg" alt="User icon">My account</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <div class="container">
+                    <a href="#"><img src="img/main-logo.png" alt="Main Logo" width="180" height="50" class="main-logo"></a>
+                    <div class="main-navigation">
+                        <ul class="main-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li class="active"><a href="#">Pricing &amp; Plans</a></li>
+                            <li><a href="#">Company <span class="arrow"></span></a>
+                                <ul class="submenu">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Certifications</a></li>
+                                    <li><a href="#">Related Products</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Support <span class="arrow"></span></a>
+                                <ul class="submenu">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">How It Works</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">My Account</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Customer Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="inner-page-title">
+                <div class="container">
+                    <h1>Pricing &amp; Plans</h1>
+                </div>
+            </div>
+            <div class="breadcrumbs-wrapper">
+                <div class="container">
+                    <ul class="breadcrumbs">
+                        <li>
+                            <a href="index.html"><img src="img/home-icon.png" alt="Home icon"></a>
+                        </li>
+                        <li><img src="img/arrow-icon.png" alt="Arrow icon"></li>
+                        <li class="current">Pricing &amp; Plans</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <p class="content-header">Choose your plan and fill out information below in order to proceed with your purchase</p>
+                <form class="main-content" action="#" method="post">
+                    <div class="section-header">
+                        <img src="img/1.png" alt="Section Number" class="section-number">
+                        <h1>Plan Information</h1>
+                    </div>
+                    <div class="plan-info">
+                        <div class="table">
+                            <div class="table-row-header">
+                                <div class="table-col-header">Package</div>
+                                <div class="table-col-header">
+                                    SecureCloud Storage
+                                </div>
+                                <div class="table-col-header">
+                                   Monthly
+                                </div>
+                                <div class="table-col-header">Yearly</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-col" data-label="Package">
+                                    <img src="img/essential.png" alt="">
+                                    <div class="plan-text">
+                                        <h3>Essential</h3>
+                                        <p> One-time purchase
+                                            <br>1 computer </p>
+                                    </div>
+                                </div>
+                                <div class="table-col" data-label="Secure Storage">
+                                    <div class="col-content">
+                                        <p>5 GBs included</p>
+                                    </div>
+                                </div>
+                                <div class="table-colspan-2" data-label="Price">
+                                    <input type="radio" class="radio" name="cost" id="essentialCost" value="49">
+                                    <label for="essentialCost">$49.00 <span class="additional-text">(One-time fee)</span></label>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-col" data-label="Package"><img src="img/personal.png" alt="">
+                                    <div class="plan-text">
+                                        <h3>Personal</h3>
+                                        <p>1 year subscription
+                                            <br> 2 computers</p>
+                                    </div>
+                                </div>
+                                <div class="table-col" data-label="Secure Storage">
+                                        <select name="personal-capacity" id="personal-capacity">
+                                            <option value="50">50 GBs included</option>
+                                            <option value="250">250 GBs included</option>
+                                            <option value="1"> 1 TB included</option>
+                                        </select>
+                                </div>
+                                <div class="table-col" data-label="Monthly">
+                                    <div class="col-content monthly-cost">
+                                        <input type="radio" class="radio" name="cost" id="personalMonthCost" value="5,95">
+                                        <label for="personalMonthCost">$5.95</label>
+                                    </div>
+                                </div>
+                                <div class="table-col" data-label="Yearly">
+                                    <div class="col-content">
+                                        <input type="radio" class="radio" id="personalYearCost" name="cost" value="59">
+                                        <label for="personalYearCost">$59.00 <span class="additional-text">($5.00/mo)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-col" data-label="Package"><img src="img/family.png" alt="">
+                                    <div class="plan-text">
+                                        <h3>Family</h3>
+                                        <p>1 year subscription
+                                            <br> 5 computers</p>
+                                    </div>
+                                </div>
+                                <div class="table-col" data-label="Secure Storage">
+                                        <select name="family-capacity" id="family-capacity">
+                                            <option value="50">50 GBs included</option>
+                                            <option value="250" selected>250 GBs included</option>
+                                            <option value="1"> 1 TB included</option>
+                                        </select>
+                                    
+                                </div>
+                                <div class="table-col" data-label="Monthly">
+                                    <div class="col-content monthly-cost">
+                                        <input type="radio" class="radio" id="familyMonthCost" name="cost" value="14,95">
+                                        <label for="familyMonthCost">$14.95</label>
+                                    </div>
+                                </div>
+                                <div class="table-col" data-label="Yearly">
+                                    <div class="col-content">
+                                        <input type="radio" class="radio" id="familyYearCost" name="cost" value="149">
+                                        <label for="familyYearCost">$149.00 <span class="additional-text">($5.00/mo)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-col" data-label="Package"><img src="img/business.png" alt="">
+                                    <div class="plan-text">
+                                        <h3>Small Business</h3>
+                                        <p>1 year subscription
+                                            <br> 20 computers</p>
+                                    </div>
+                                </div>
+                                <div class="table-col" data-label="SecureCloud Storage">
+                                        <select name="business-capacity" id="business-capacity">
+                                            <option value="50">50 GBs included</option>
+                                            <option value="250">250 GBs included</option>
+                                            <option value="1" selected> 1 TB included</option>
+                                        </select>
+                                </div>
+                                <div class="table-col" data-label="Monthly">
+                                    <div class="col-content monthly-cost">
+                                        <input type="radio" class="radio" id="businessMonthCost" name="cost" value="34,95">
+                                        <label for="businessMonthCost">$34.95</label>
+                                    </div>
+                                </div>
+                                <div class="table-col" data-label="Yearly">
+                                    <div class="col-content">
+                                        <input type="radio" class="radio" id="businessYearCost" name="cost" value="349">
+                                        <label for="businessYearCost">$349.00 <span class="additional-text">($5.00/mo)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-col" data-label="Package"><img src="img/enterprise.png" alt="">
+                                    <div class="plan-text">
+                                        <h3>Enterprise</h3>
+                                        <p>More than
+                                            <br>20 computers</p>
+                                    </div>
+                                </div>
+                                <div class="table-colspan-3" data-label="Storage and Prices">
+                                    <h2>Please contact us for more details</h2>
+                                    <a href="#" class="btn-smb">Submit Request</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="left-form-block">
+                            <div class="section-header">
+                                <img src="img/2.png" alt="Section Number" class="section-number">
+                                <h1>Contact Information</h1>
+                            </div>
+                            <div class="contact-info">
+                                <input type="text" name="first-name" placeholder="First Name" required>
+                                <input type="text" name="last-name" placeholder="Last Name" required>
+                                <input type="text" name="address" placeholder="Address" required>
+                                <input type="text" name="city" placeholder="City" required>
+                                <select name="country" id="country">
+                                    <option value="us">United States</option>
+                                    <option value="not-us">There are no other countries</option>
+                                </select>
+                                <select name="state" id="state">
+                                    <option value="">Select your state</option>
+                                    <option value="1">Alabama</option>
+                                    <option value="2">Alaska</option>
+                                    <option value="3">American Samoa</option>
+                                    <option value="4">Arizona</option>
+                                    <option value="5">Arkansas</option>
+                                    <option value="6">Armed Forces Africa</option>
+                                    <option value="7">Armed Forces Americas</option>
+                                    <option value="8">Armed Forces Canada</option>
+                                    <option value="9">Armed Forces Europe</option>
+                                    <option value="10">Armed Forces Middle East</option>
+                                    <option value="11">Armed Forces Pacific</option>
+                                    <option value="12">California</option>
+                                    <option value="13">Colorado</option>
+                                    <option value="14">Connecticut</option>
+                                    <option value="15">Delaware</option>
+                                    <option value="16">District of Columbia</option>
+                                    <option value="17">Federated States Of Micronesia</option>
+                                    <option value="18">Florida</option>
+                                    <option value="19">Georgia</option>
+                                    <option value="20">Guam</option>
+                                    <option value="21">Hawaii</option>
+                                    <option value="22">Idaho</option>
+                                    <option value="23">Illinois</option>
+                                    <option value="24">Indiana</option>
+                                    <option value="25">Iowa</option>
+                                    <option value="26">Kansas</option>
+                                    <option value="27">Kentucky</option>
+                                    <option value="28">Louisiana</option>
+                                    <option value="29">Maine</option>
+                                    <option value="30">Marshall Islands</option>
+                                    <option value="31">Maryland</option>
+                                    <option value="32">Massachusetts</option>
+                                    <option value="33">Michigan</option>
+                                    <option value="34">Minnesota</option>
+                                    <option value="35">Mississippi</option>
+                                    <option value="36">Missouri</option>
+                                    <option value="37">Montana</option>
+                                    <option value="38">Nebraska</option>
+                                    <option value="39">Nevada</option>
+                                    <option value="40">New Hampshire</option>
+                                    <option value="41">New Jersey</option>
+                                    <option value="42">New Mexico</option>
+                                    <option value="43">New York</option>
+                                    <option value="44">North Carolina</option>
+                                    <option value="45">North Dakota</option>
+                                    <option value="46">Northern Mariana Islands</option>
+                                    <option value="47">Ohio</option>
+                                    <option value="48">Oklahoma</option>
+                                    <option value="49">Oregon</option>
+                                    <option value="50">Palau</option>
+                                    <option value="51">Pennsylvania</option>
+                                    <option value="52">Puerto Rico</option>
+                                    <option value="53">Rhode Island</option>
+                                    <option value="54">South Carolina</option>
+                                    <option value="55">South Dakota</option>
+                                    <option value="56">Tennessee</option>
+                                    <option value="57">Texas</option>
+                                    <option value="58">Utah</option>
+                                    <option value="59">Vermont</option>
+                                    <option value="60">Virgin Islands</option>
+                                    <option value="61">Virginia</option>
+                                    <option value="62">Washington</option>
+                                    <option value="63">West Virginia</option>
+                                    <option value="64">Wisconsin</option>
+                                    <option value="65">Wyoming</option>
+                                </select>
+                                <input type="text" name="zip-code" placeholder="Zip Code" required>
+                                <input type="tel" name="phone" placeholder="Phone" required>
+                                <input type="tel" name="add-phone" placeholder="Additional Phone">
+                                <input type="text" name="company" placeholder="Company">
+                            </div>
+                        </div>
+                        <div class="right-form-block">
+                            <div class="section-header">
+                                <img src="img/3.png" alt="Section Number" class="section-number">
+                                <h1>Account Information</h1>
+                            </div>
+                            <div class="account-info">
+                                <input type="email" name="user-mail" placeholder="Email address" required>
+                                <input type="email" placeholder="Confirm email address" required>
+                                <input type="password" placeholder="Password" required>
+                                <input type="password" placeholder="Confirm password" required>
+                            </div>
+                            <div class="section-header">
+                                <img src="img/4.png" alt="Section Number" class="section-number">
+                                <h1>Payment Information</h1>
+                            </div>
+                            <div class="payment-info">
+                                <div class="card-logo">
+                                    <img src="img/visa-icon.png" alt="Visa icon">
+                                    <img src="img/mastercard-icon.png" alt="MasterCard icon">
+                                    <img src="img/amex-icon.png" alt="Amex icon">
+                                    <img src="img/discover-icon.png" alt="Discover icon">
+                                </div>
+                                <input type="text" placeholder="Credit card number">
+                                <div class="card-info">
+                                    <p>Exp.Date</p>
+                                    <select name="card-month" id="card-month">
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="4">04</option>
+                                        <option value="5">05</option>
+                                        <option value="6">06</option>
+                                        <option value="7">07</option>
+                                        <option value="8">08</option>
+                                        <option value="9">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11" selected>11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    <select name="card-year" id="card-year">
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                    </select>
+                                    <input type="number" placeholder="CVV" class="cvv">
+                                </div>
+                                <div class="total-wrapper">
+                                    <div class="total">Total: $149</div>
+                                    <button class="smb-btn" type="submit">Purchase</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="partners-logo">
+                <div class="container">
+                    <img src="img/ssae-logo.png" alt="SSAE logo">
+                    <img src="img/bbb-logo.png" alt="BBB Logo">
+                    <img src="img/norton-logo.png" alt="Norton Logo">
+                    <img src="img/truste-logo.png" alt="Truste Logo">
+                    <img src="img/mcafee-logo.png" alt="McAfee">
+                    <img src="img/gsa-logo.png" alt="GSA Logo">
+                </div>
+            </div>
+            <div class="features-wrapper">
+                <div class="container">
+                    <div class="features">
+                        <div class="features-item">
+                            <img src="img/features-hand.png" alt="Hands icon">
+                            <b class="features-name">Plans &amp; pricing</b>
+                            <p>Select the plan that fits your needs. Prices&nbsp;for&nbsp; every budget.</p>
+                            <a href="#" class="btn">View Pricing</a>
+                        </div>
+                        <div class="features-item">
+                            <img src="img/features-phone.png" alt="Phpne icon">
+                            <b class="features-name">Need More Info? Call Us</b>
+                            <p>Our expert customer service team is always&nbsp;ready to answer your questions.</p>
+                            <a href="#" class="btn">1-555-333-2222</a>
+                        </div>
+                        <div class="features-item">
+                            <img src="img/features-arrow.png" alt="Arrow icon">
+                            <b class="features-name">Start Free Trial Version</b>
+                            <p>Learn more about SecureBackup&nbsp;with&nbsp; a 30-Day&nbsp;Free Trial Download.</p>
+                            <a href="#" class="btn">Try It Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="main-footer">
+                <div class="container">
+                    <section class="footer-nav">
+                        <ul class="footer-main-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing &amp; Plans</a></li>
+                            <li><a href="#">Try it free</a></li>
+                            <li><a href="#">Guides</a></li>
+                        </ul>
+                        <ul class="footer-submenu">
+                            <li class="submenu-header"><a href="#">Company</a></li>
+                            <li class="submenu-item"><a href="#">About</a></li>
+                            <li class="submenu-item"><a href="#">Certifications</a></li>
+                            <li class="submenu-item"><a href="#">Related Products</a></li>
+                            <li class="submenu-item"><a href="#">Careers</a></li>
+                        </ul>
+                        <ul class="footer-submenu">
+                            <li class="submenu-header"><a href="#">Support</a></li>
+                            <li class="submenu-item"><a href="#">FAQ</a></li>
+                            <li class="submenu-item"><a href="#">How It Works</a></li>
+                            <li class="submenu-item"><a href="#">Contact Us</a></li>
+                            <li class="submenu-item"><a href="#">My Account</a></li>
+                        </ul>
+                        <div class="footer-social">
+                            <div class="footer-social-text">
+                                <div class="text-wrapper"><a href="#">SecureCompany Inc</a>
+                                    <p>Protect Your Data with Us</p>
+                                </div>
+                                <img src="img/graph-logo.svg" alt="Logo"></div>
+                            <div class="footer-social-icons"><a href="#" class="social-btn social-btn-fb">Facebook</a>
+                                <a href="#" class="social-btn social-btn-twit">Twitter</a>
+                                <a href="#" class="social-btn social-btn-in">Linkedin</a>
+                                <a href="#" class="social-btn social-btn-google">Google+</a>
+                                <a href="#" class="social-btn social-btn-youtube">Youtube</a></div>
+                        </div>
+                    </section>
+                </div>
+                <div class="footer-wrapper">
+                    <section class="container">
+                        <div class="footer-copyright">
+                            <div class="footer-logo"><a href="#"><img src="img/main-logo-w.png" alt="Main Logo"></a></div>
+                            <div class="footer-contact">
+                                <a href="tel:+1555333222"><img src="img/phone-w-icon.png" alt="Phone icon">1-555-333-2222</a>
+                                <a href="mailto:support@somecompany.com"><img src="img/mail-w-icon.png" alt="Mail icon">support@somecompany.com</a>
+                            </div>
+                            <div class="copyright">
+                                <p>Copyright &copy; 2017 SecureCompany, Inc. All Rights Reserved.</p>
+                                <ul class="copyright-link">
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">EULA</a></li>
+                                    <li><a href="#">Copyright Policy</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.selectric.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
