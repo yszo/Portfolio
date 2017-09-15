@@ -286,7 +286,6 @@ ul li:hover ul {
 
 .left-form-block {
     margin-right: 30px;
-
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -323,8 +322,7 @@ input[name='first-name'] {
 }
 
 .contact-info .selectric-items {
-    right: 10px;
-
+    left: 20px;
     width: 100%;
 }
 
@@ -380,7 +378,6 @@ input[name='first-name'] {
 
 .payment-info input {
     display: block;
-
     width: 87%;
     margin: 0 auto;
     padding-top: 8px;
@@ -455,7 +452,6 @@ input.cvv {
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-
     text-transform: uppercase;
 }
 
@@ -490,7 +486,6 @@ input.cvv {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
