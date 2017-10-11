@@ -239,6 +239,9 @@ div i {
     border: none;
     border-bottom: 1px solid #efefef;
 }
+.col-xs-12 .help-icon {
+    display: none;
+}
 
 @media (min-width:768px) and (max-width:991px) {
     .table-cell {
@@ -263,4 +266,8 @@ div i {
         padding-right: 10px;
         padding-left: 10px;
     }
+
+    .help-icon {
+    display: none;
+}
 }
